@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Bac à sable</title>
+
+    <link href="connexion_styles.css" rel="stylesheet" />
+    
+ 
+    
+  </head>
+
+  <body>
+    <div class="container">
+      <h1> Contactez-nous </h1>
+      <div class="from-control">
+        <input type="text" required />
+        <label for="nom">Votre Nom</label>
+       
+      <div class="from-control">
+        <input type="text" required />
+        <label for="email">Votre email</label>
+      </div>
+      <div class="from-control">
+        <label for="message"> votre message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+   
+      </div>
+      
+      <button> Envoyer votre message </button> 
+     
+      
+    <script src="./assets/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/bootstrap.js" type="text/javascript"></script>
+    <script src="./script.js" type="text/javascript"></script>
+  </body>
+</html>
